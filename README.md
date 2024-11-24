@@ -31,5 +31,5 @@ python -m venv venv
 pip install -r requirements.txt
 ```
 ```bash
-streamlit run .\\frontend.\\app.py
+streamlit run .\frontend.\app.py
 ```
