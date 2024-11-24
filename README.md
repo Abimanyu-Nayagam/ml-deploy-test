@@ -14,10 +14,22 @@ Here are the steps for running locally, if required.
 
 ```bash
 git clone 'https://github.com/Abimanyu-Nayagam/ml-deploy-test.git'
+```
+```bash
 cd ml-deploy-test
+```
+```bash
 pip install virtualenv
+```
+```bash
 python -m venv venv
+```
+```bash
 ./venv/scripts/activate
+```
+```bash
 pip install -r requirements.txt
+```
+```bash
 streamlit run .\\frontend.\\app.py
 ```
