@@ -38,7 +38,7 @@ def pred(input):
         pred = model.predict(padded_input)
         st.write(pred[0])
         pred = (pred[0] > 0.5).astype(int)
-        st.write(f"I think this message is a {vocab[pred[0]]}")
+        st.write(f"I think this message is {vocab[pred[0]]}")
     else:
         st.write("Input not received")
 
